@@ -28,7 +28,7 @@ def graph(source, destination):
         
         
     for (u, v) in G.edges():
-        G.edges[u,v]['weight'] = np.random.randint(1,15)
+        G.edges[u,v]['weight'] = np.random.randint(1,31)
 
     return G, pos, color
 
